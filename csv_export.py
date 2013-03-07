@@ -26,7 +26,7 @@ def main():
     for i in sys.argv:
         result_identifier = i
     
-    date_format = "%D %H:%M"
+    date_format = "%Y-%m-%d %H:%M:%S"
     
     # Convert identifier
     result_identifier = int(result_identifier)
